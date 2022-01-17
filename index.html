@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Locator</title>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="/style.css">
+    
+</head>
+<body>
+    <div class="map-wrapper">
+        <div class="w-layout-grid grid-3">
+        <div class='sidebar'><div class='heading'>
+          <h2>Our locations</h2>
+            </div>
+            <div><input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for City" title="Search for City"></div>
+            
+            <div id='listings' class="listings store-list-wrapper w-node-_995c9819-b6a3-194d-b123-6a5968a1def5-adeac0c7"></div>
+      </div>
+      <div id="map" class="map grid-map-wrapper"></div>
+    </div>
+      <script src="/script.js"></script>  
+
+      <script>
+        function myFunction() {
+            var input, filter, div, a, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("listings");
+            li = ul.getElementsByTagName("div");
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[1];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+
+        </script>
+</body>
+</html>
