@@ -1,6 +1,11 @@
 /*Load map*/
 mapboxgl.accessToken = 'pk.eyJ1IjoiYnJlZXplb25saW5lIiwiYSI6ImNreWljZnpqbTAydGczMXAwcTBlajE2dzIifQ.UQGrLFtz-yl8PWx-K6MFww';
 
+
+map.on('load', function () {
+  map.resize();
+});
+
 /**
  * Add the map to the page
  */
