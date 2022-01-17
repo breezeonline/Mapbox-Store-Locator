@@ -223,6 +223,10 @@
     .map-wrapper {
       width: 97%;
     }
+
+    .map-embed-wrapper {
+      height: 400px;
+    }
   }
   
   @media screen and (max-width: 991px) {
