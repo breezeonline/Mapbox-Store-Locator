@@ -152,7 +152,7 @@
     cursor: pointer;
     height: 56px;
     width: 56px;
-    background-image: url(https://cdn.jsdelivr.net/gh/breezeonline/Mapbox-Store-Locator@1.0.1/marker.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/breezeonline/Mapbox-Store-Locator/marker.png);
   }
 
   /*Adjust Pop Up Height*/
@@ -163,7 +163,7 @@
 
   /*Style Search bar*/
   #myInput {
-    background-image: url('/css/searchicon.png');
+    background-image: url('https://cdn.jsdelivr.net/gh/breezeonline/Mapbox-Store-Locator/searchicon.png');
     background-position: 10px 12px;
     background-repeat: no-repeat;
     width: 100%;
