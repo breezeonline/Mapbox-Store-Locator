@@ -1,5 +1,5 @@
 /*Load map*/
-mapboxgl.accessToken = 'KEY';
+mapboxgl.accessToken = 'pk.eyJ1IjoiYnJlZXplb25saW5lIiwiYSI6ImNreHRyZXM2dDVvbGQydXE5aXY3YmhhYmYifQ.kaiXUuz6YUGojIFzv-_YCQ';
 
 /**
  * Add the map to the page
