@@ -1,5 +1,5 @@
 /*Load map*/
-mapboxgl.accessToken = 'pk.eyJ1IjoiYnJlZXplb25saW5lIiwiYSI6ImNreHRyZXM2dDVvbGQydXE5aXY3YmhhYmYifQ.kaiXUuz6YUGojIFzv-_YCQ';
+mapboxgl.accessToken = 'pk.eyJ1IjoiYnJlZXplb25saW5lIiwiYSI6ImNreWljZnpqbTAydGczMXAwcTBlajE2dzIifQ.UQGrLFtz-yl8PWx-K6MFww';
 
 /**
  * Add the map to the page
