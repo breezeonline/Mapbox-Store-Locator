@@ -152,7 +152,7 @@
     cursor: pointer;
     height: 56px;
     width: 56px;
-    background-image: url(marker.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/breezeonline/Mapbox-Store-Locator@1.0.1/marker.png);
   }
 
   /*Adjust Pop Up Height*/
