@@ -193,7 +193,7 @@
   }
   
   .grid-3 {
-    height: 800px;
+    min-height: 800px;
     display: grid;
     -ms-grid-columns: 0.5fr 1fr;
     grid-template-columns: 0.5fr 1fr;
