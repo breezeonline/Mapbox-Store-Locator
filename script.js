@@ -2,9 +2,7 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiYnJlZXplb25saW5lIiwiYSI6ImNreWljZnpqbTAydGczMXAwcTBlajE2dzIifQ.UQGrLFtz-yl8PWx-K6MFww';
 
 
-map.on('load', function () {
-  map.resize();
-});
+
 
 /**
  * Add the map to the page
@@ -15,6 +13,10 @@ const map = new mapboxgl.Map({
   center: [-77.034084142948, 38.909671288923],
   zoom: 13,
   scrollZoom: false
+});
+
+map.on('load', function () {
+  map.resize();
 });
 
 const stores = {
