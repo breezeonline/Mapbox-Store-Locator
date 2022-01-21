@@ -1,12 +1,12 @@
 
   /*Remove on site install*/
   body {
-    color: #404040;
+    color: #091d3e;
     font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', sans-serif;
     margin: 0;
     padding: 0;
     -webkit-font-smoothing: antialiased;
-    background-color: #404040;
+    background-color: #091d3e;
   }
 /*end remove*/
   .bz-store-h2 {
@@ -177,6 +177,8 @@
     grid-template-columns: 0.5fr 1fr;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
+    grid-row-gap: 0px;
+    grid-column-gap: 0px;
   }
   
   .bz-store-map-wrapper {
