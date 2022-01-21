@@ -1,7 +1,8 @@
-/*Load map mapboxgl.accessToken = 'KEY HERE';
+/*Load map mapboxgl.accessToken = 'pk.eyJ1IjoiYnJlZXplb25saW5lIiwiYSI6ImNreHRyZXM2dDVvbGQydXE5aXY3YmhhYmYifQ.kaiXUuz6YUGojIFzv-_YCQ';*/
 
-Add the map to the page
-
+/**
+ * Add the map to the page
+ */
 const map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mapbox/light-v10',
@@ -10,7 +11,6 @@ const map = new mapboxgl.Map({
   scrollZoom: false,
   dragPan: false,
 });
-*/
 
 map.on('load', function () {
   map.resize();
