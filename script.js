@@ -1,5 +1,5 @@
 /*Load map*/
-mapboxgl.accessToken = 'pk.eyJ1IjoiYnJlZXplb25saW5lIiwiYSI6ImNreWljZnpqbTAydGczMXAwcTBlajE2dzIifQ.UQGrLFtz-yl8PWx-K6MFww';
+mapboxgl.accessToken = 'KEY';
 
 
 
@@ -195,6 +195,7 @@ const stores = {
         'coordinates': [-75.20121216774, 39.954030175164]
       },
       'properties': {
+        'propertyName': 'Breeze Online',
         'phoneFormatted': '(215) 386-1365',
         'phone': '2153861365',
         'address': '3925 Walnut St',
@@ -211,6 +212,7 @@ const stores = {
         'coordinates': [-77.043959498405, 38.903883387232]
       },
       'properties': {
+        'propertyName': 'Breeze Online',
         'phoneFormatted': '(202) 331-3355',
         'phone': '2023313355',
         'address': '1901 L St. NW',
@@ -371,7 +373,7 @@ function createPopUp(currentFeature) {
   const popup = new mapboxgl.Popup({ closeOnClick: false })
     .setLngLat(currentFeature.geometry.coordinates)
     .setHTML(
-      `<h3>Sweetgreen</h3><h4>${currentFeature.properties.address}</h4>`
+      `<h3>${currentFeature.properties.propertyName}</h3><h4>${currentFeature.properties.address}</h4>`
     )
     .addTo(map);
 }
