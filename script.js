@@ -1,5 +1,4 @@
-/*Load map*/
-mapboxgl.accessToken = 'KEY HERE';
+/*Load map mapboxgl.accessToken = 'KEY HERE';*/
 
 /**
  * Add the map to the page
