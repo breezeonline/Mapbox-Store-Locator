@@ -11,23 +11,25 @@
     
 </head>
 <body>
-    <div class="map-wrapper">
-        <div class="w-layout-grid grid-3">
-        <div class='sidebar'><div class='heading'>
-          <h2>Our locations</h2>
+    <div class="bz-store-map-wrapper">
+        <div class="w-layout-grid bz-store-grid">
+        <div class='bz-store-sidebar'><div class='bz-store-heading'>
+          <h2 class="bz-store-h2">Our locations</h2>
             </div>
-            <div><input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for City" title="Search for City"></div>
+            <div><input type="text" id="bzMyInput" onkeyup="myFunction()" placeholder="Search for City" title="Search for City"></div>
             
-            <div id='listings' class="listings store-list-wrapper w-node-_995c9819-b6a3-194d-b123-6a5968a1def5-adeac0c7"></div>
+            <div id='listings' class="bz-store-listings store-list-wrapper w-node-_995c9819-b6a3-194d-b123-6a5968a1def5-adeac0c7"></div>
       </div>
-      <div id="map" class="map grid-map-wrapper"></div>
+      <div class="map-embed-wrapper">
+          <div id="map" class="map grid-map-wrapper"></div>
+        </div>
     </div>
       <script src="/script.js"></script>  
 
       <script>
         function myFunction() {
             var input, filter, div, a, i, txtValue;
-            input = document.getElementById("myInput");
+            input = document.getElementById("bzMyInput");
             filter = input.value.toUpperCase();
             ul = document.getElementById("listings");
             li = ul.getElementsByTagName("div");
