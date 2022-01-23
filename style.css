@@ -49,7 +49,7 @@
 
   /*Style Store Listing*/
   .bz-store-listings {
-    height: 100%;
+    height: 85%;
     overflow: auto;
     padding-bottom: 60px;
   }
@@ -203,6 +203,10 @@
     .map-embed-wrapper {
       height: 400px;
     }
+    /*Style Store Listing*/
+  .bz-store-listings {
+    height: 70%;
+  }
   }
   
   @media screen and (max-width: 991px) {

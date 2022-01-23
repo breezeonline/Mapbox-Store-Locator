@@ -139,6 +139,91 @@ const stores = {
         'province': 'SK'
       }
     },
+    {
+      'type': 'Feature',
+      'geometry': {
+        'type': 'Point',
+        'coordinates': [-115.366182, 51.100696]
+      },
+      'properties': {
+        'propertyName': 'Location 8',
+        'phoneFormatted': '(123)-456-7890',
+        'phone': '1234567890',
+        'address': '2000 - 8 Avenue',
+        'city': 'Canmore',
+        'country': 'Canada',
+        'postalCode': 'T1W 1Y2',
+        'province': 'AB'
+      }
+    },
+      {
+        'type': 'Feature',
+        'geometry': {
+          'type': 'Point',
+          'coordinates': [-106.659319, 52.07715]
+        },
+        'properties': {
+          'propertyName': 'Location 9',
+          'phoneFormatted': '(123)-456-7890',
+          'phone': '1234567890',
+          'address': '382 Cartwright Street',
+          'city': 'Saskatoon',
+          'country': 'Canada',
+          'postalCode': 'S7T 1B1',
+          'province': 'SK'
+        }
+    },
+    {
+      'type': 'Feature',
+      'geometry': {
+        'type': 'Point',
+        'coordinates': [-118.775068, 55.09355]
+      },
+      'properties': {
+        'propertyName': 'Location 10',
+        'phoneFormatted': '(123)-456-7890',
+        'phone': '1234567890',
+        'address': 'RR3 Site 4, Box 1',
+        'city': 'Grande Prairie',
+        'country': 'Canada',
+        'postalCode': 'T8W 5K2',
+        'province': 'AB'
+      }
+  },
+  {
+    'type': 'Feature',
+    'geometry': {
+      'type': 'Point',
+      'coordinates': [-122.649976, 49.066794]
+    },
+    'properties': {
+      'propertyName': 'Location 11',
+      'phoneFormatted': '(123)-456-7890',
+      'phone': '1234567890',
+      'address': 'Langley Discgolf Park',
+      'city': 'Langley',
+      'country': 'Canada',
+      'postalCode': 'V3A 4Y2',
+      'province': 'BC'
+    }
+},
+{
+  'type': 'Feature',
+  'geometry': {
+    'type': 'Point',
+    'coordinates': [-122.307701, 49.145461]
+  },
+  'properties': {
+    'propertyName': 'Location 12',
+    'phoneFormatted': '(123)-456-7890',
+    'phone': '1234567890',
+    'address': '14th Avenue',
+    'city': 'Mission',
+    'country': 'Canada',
+    'postalCode': 'V2V 3T8',
+    'province': 'BC'
+  }
+},
   ]
 };
 
