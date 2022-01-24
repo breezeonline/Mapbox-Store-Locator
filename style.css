@@ -178,6 +178,7 @@
   }
   
   .bz-store-map-wrapper {
+    height: 100%;
     margin-top: 100px;
     margin-bottom: 100px;
     width: 80%;
@@ -185,7 +186,7 @@
     margin-right: auto;
     margin-left: auto;
     background-color: #fff;
-    border-radius: 20px;
+    border-radius: 35px;
     overflow: hidden;
   }
   
